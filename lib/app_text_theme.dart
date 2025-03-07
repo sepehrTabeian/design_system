@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'app_font_const.dart';
+
 class AppTextTheme {
-  static const _fontFamilyName = 'YekanBakh';
-//TODO height parameter makes weired effect on widgets, decide about it with mobile team
+  static const _fontFamilyName = AppFontConst.yekanBakh;
   static TextTheme textTheme = const TextTheme(
       headlineLarge: TextStyle(
           fontWeight: FontWeight.w500,

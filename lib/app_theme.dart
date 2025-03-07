@@ -6,6 +6,7 @@ import 'package:design_system/app_outlined_button_theme.dart';
 import 'package:design_system/app_text_field_theme.dart';
 import 'package:flutter/material.dart';
 
+import 'app_font_const.dart';
 import 'app_text_button_theme.dart';
 
 abstract class AppTheme {
@@ -15,7 +16,7 @@ abstract class AppTheme {
 
   ColorScheme get colorScheme;
 
-  String get fontFamily => 'YekanBakh';
+  String get fontFamily => AppFontConst.yekanBakh;
 
   bool get useMaterial3 => true;
 
